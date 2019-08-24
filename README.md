@@ -4,7 +4,7 @@ pyramid-cookiecutter-docker
 ## Bootstraping docker pipenv pyramid system
 
 Resources:
-- Read the first part in https://github.com/valmy/pyramid_cookiecutter_docker
+- Read the first part in https://github.com/valmy/pyramid-docker
 - https://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tour.html
 
 ### Execute cookiecutter
