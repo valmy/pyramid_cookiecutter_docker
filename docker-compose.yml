@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  webapp:
+    image: kennethreitz/pipenv
+    volumes:
+      - .:/app
+      - ./.local:/root/.local
+    ports:
+      - 6543:6543
+    command: pipenv run pserve development.ini --reload
