@@ -30,6 +30,14 @@ in docker.
 
 3. Use the generated folder as the root folder for the next section
 
+Alternatively we can use docker CLI to run this without Python on the host OS:
+
+```
+$ docker run -it -v `pwd`:/app kennethreitz/pipenv
+# pipenv --three
+# pipenv install cookiecutter
+# pipenv run cookiecutter gh:Pylons/pyramid-cookiecutter-starter --checkout 1.10-branch
+```
 
 ### Prepare docker environment with pipenv
 
